@@ -19,27 +19,25 @@
 |---------|-------------|--------|
 | 🔐 **Multi-Profile Setup** | Manage multiple AWS accounts seamlessly | ✅ Ready |
 | ⚡ **Quick Configuration** | One-command setup for AWS credentials | ✅ Ready |
-| 🛡️ **Security First** | Built-in security best practices | ✅ Ready |
-| 🔄 **Automated Deployment** | CI/CD ready configurations | 🚧 Beta |
-| 📊 **Monitoring** | CloudWatch dashboards and alerts | 🚧 Planned |
+| 🛡️ **Security First** | Built-in security best practices | ✅ Ready ||
 
 --------------------------------------------------------------------------------------------
 
 ## 🚀 Quick Start
 ### Prerequisites
 
-# Verify AWS CLI installation
+Verify AWS CLI installation
 aws --version
 
-# If not installed, install via package manager:
+If not installed, install via package manager:
 
-# macOS
+macOS
 brew install awscli
 
-# Linux
+Linux
 sudo apt install awscli
 
-# Or via Python pip
+Or via Python pip
 pip install awscli
 -----------------------------------------------------------------
 
