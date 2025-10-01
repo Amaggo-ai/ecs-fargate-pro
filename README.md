@@ -12,6 +12,7 @@
 
 </div>
 ----------------------------------------------------------------------------------------------
+
 ## 🌟 Features
 
 | Feature | Description | Status |
@@ -22,8 +23,9 @@
 | 🔄 **Automated Deployment** | CI/CD ready configurations | 🚧 Beta |
 | 📊 **Monitoring** | CloudWatch dashboards and alerts | 🚧 Planned |
 
-## 🚀 Quick Start
+--------------------------------------------------------------------------------------------
 
+## 🚀 Quick Start
 ### Prerequisites
 
 # Verify AWS CLI installation
@@ -37,12 +39,8 @@ brew install awscli
 # Linux
 sudo apt install awscli
 
-# Windows
-choco install awscli
-
 # Or via Python pip
 pip install awscli
-
 -----------------------------------------------------------------
 
 Security Checklist
