@@ -62,23 +62,6 @@ Security Checklist
 ---------------------------------------------------------------
 #PROJECT STRUCTURE
 
-ecs-fargate-pro/
-├── app/                     # Node.js application source code
-│   ├── app.js               # Main application file
-│   └── package.json         # Node.js dependencies
-│
-├── docker/                  # Docker configuration
-│   └── Dockerfile           # Dockerfile for building the app image
-│
-├── infra/                   # AWS ECS CLI/JSON configs (optional, legacy)
-│   └── taskdef.json         # ECS task definition (if still keeping previous manual step)
-│
-├── terraform/               # Terraform infrastructure as code
-│   ├── main.tf              # ECS cluster, task definition, service, IAM roles, ECR repo
-│   ├── variables.tf         # Input variables for Terraform
-│   └── outputs.tf           # Terraform outputs (e.g., cluster name, ECR URL)
-│
-├── .gitignore               # Exclude node_modules, secrets, .pem files
-└── README.md                # Project documentation
+[Local Node.js App] > [Docker Build] > [Docker Image] > [Push to Amazon ECR] > [Terraform / ECS Task Definition] > [ECS Fargate Service] > [VPC + Subnets + Security Group] > [Public IP / Browser]
 
 --------------------------------------------------------------------
