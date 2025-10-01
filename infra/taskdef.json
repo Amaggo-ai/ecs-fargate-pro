@@ -1,0 +1,21 @@
+{
+  "family": "deploy-task",
+  "networkMode": "awsvpc",
+  "requiresCompatibilities": ["FARGATE"],
+  "cpu": "256",
+  "memory": "512",
+  "containerDefinitions": [
+    {
+      "name": "deploy-container",
+      "image": "260637193253.dkr.ecr.us-east-1.amazonaws.com/deploy:latest",
+      "portMappings": [
+        {
+          "containerPort": 80,
+          "protocol": "tcp"
+        }
+      ],
+      "essential": true
+    }
+  ],
+  "executionRoleArn": "arn:aws:iam::260637193253:role/Serverless_stack_role"
+}
