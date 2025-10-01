@@ -39,6 +39,7 @@ sudo apt install awscli
 
 Or via Python pip
 pip install awscli
+
 -----------------------------------------------------------------
 
 Security Checklist
@@ -59,7 +60,7 @@ Security Checklist
 ✅ Use encryption for data at rest and in transit
 
 ---------------------------------------------------------------
-PROJECT STRUCTURE
+#PROJECT STRUCTURE
 
 ecs-fargate-pro/
 ├── app/                     # Node.js application source code
